@@ -1,7 +1,7 @@
 <template>
   <div>
     <b-navbar toggleable="lg" type="dark" variant="primary">
-      <b-navbar-brand href="/output">
+      <b-navbar-brand href="/">
         KKZoo
       </b-navbar-brand>
 
@@ -10,7 +10,7 @@
       <b-collapse id="nav-collapse" is-nav> 
         <!--右揃えのナビゲーションアイテム--> 
         <b-navbar-nav class="ml-auto"> 
-          <b-nav-item href="/output">
+          <b-nav-item href="/">
             TOP
           </b-nav-item> 
           <b-nav-item href="＃">
