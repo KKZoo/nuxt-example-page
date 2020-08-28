@@ -4,6 +4,7 @@
     <topPage />
     <myprofPage />
     <skillPage />
+    <footerPage />
   </section>
 </template>
 
@@ -12,13 +13,15 @@ import navbar from '~/components/navbar.vue'
 import topPage from '~/components/topPage.vue'
 import myprofPage from '~/components/myprofPage.vue'
 import skillPage from '~/components/skillPage.vue'
+import footerPage from '~/components/footerPage.vue'
 
 export default {
     components: {
         navbar,
         topPage,
         myprofPage,
-        skillPage
+        skillPage,
+        footerPage
     }      
 }
 </script>>
