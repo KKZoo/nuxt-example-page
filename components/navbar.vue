@@ -1,6 +1,6 @@
 <template>
   <div>
-    <b-navbar toggleable="lg" type="dark" variant="primary">
+    <b-navbar fixed="top" toggleable="lg" type="dark" variant="primary">
       <b-navbar-brand href="/">
         KKZoo
       </b-navbar-brand>
