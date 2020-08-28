@@ -10,14 +10,14 @@
       <b-collapse id="nav-collapse" is-nav> 
         <!--右揃えのナビゲーションアイテム--> 
         <b-navbar-nav class="ml-auto"> 
-          <b-nav-item href="/">
+          <b-nav-item v-scroll-to="'#top'">
             TOP
           </b-nav-item> 
-          <b-nav-item href="＃">
-            Page1
+          <b-nav-item v-scroll-to="'#myprof'">
+            MyProfile
           </b-nav-item> 
-          <b-nav-item href="＃">
-            Page2
+          <b-nav-item v-scroll-to="'#skill'">
+            skill
           </b-nav-item>
         </b-navbar-nav> 
       </b-collapse> 

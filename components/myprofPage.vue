@@ -1,5 +1,5 @@
 <template>
-  <section>
+  <section id="myprof">
     <h2 class="myprof-page-title">
       My Profile
     </h2>

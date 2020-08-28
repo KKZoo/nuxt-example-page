@@ -1,5 +1,5 @@
 <template>
-  <section>
+  <section id="skill">
     <h2 class="skill-page-title">
       Skills
     </h2>

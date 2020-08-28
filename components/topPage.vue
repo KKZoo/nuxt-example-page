@@ -1,5 +1,5 @@
 <template>
-  <section class="top-page">
+  <section id="top" class="top-page">
     <img src="~/assets/topPageImage.jpeg" class="top-page-image">
     <p class="top-page-title">
       KKZoo's SAMPLE PAGE
