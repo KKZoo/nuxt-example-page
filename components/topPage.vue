@@ -13,10 +13,10 @@
       down scroll page
     </p>
 
-    <button @click="beforeSlide" class="slide-before-button">
+    <button class="slide-before-button" @click="beforeSlide">
       前
     </button>
-    <button @click="nextSlide" class="slide-next-button">
+    <button class="slide-next-button" @click="nextSlide">
       次
     </button>
   </section>
