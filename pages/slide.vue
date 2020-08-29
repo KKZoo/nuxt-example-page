@@ -1,18 +1,23 @@
 <template>
-  <div>
-    <button @click="beforeSlide">
+  <div class="top-page">
+    <transition name="slide">
+      <span :key="products[product]">
+        <img :src="products[product]" class="img-size">
+      </span>
+    </transition>
+
+    <p class="top-page-title">
+      KKZoo's SAMPLE PAGE
+    </p>
+
+    <button @click="beforeSlide" class="slide-before-button">
       前
     </button>
-    <button @click="nextSlide">
+    <button @click="nextSlide" class="slide-next-button">
       次
     </button>
-    <transition name="slide">
-      <div :key="products[product]">
-        <img :src="products[product]" class="img-size">
-      </div>
-    </transition>
   </div>
-</template>>
+</template>
 
 <script>
 export default {
@@ -43,7 +48,7 @@ export default {
     }
   }
 }
-</script>>
+</script>
 
 <style>
 .slide-enter-active {
@@ -59,8 +64,32 @@ export default {
   transform: opacity 0
 }
 
-.img-size{
+.top-page{
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+.slide-before-button {
   position: absolute;
+  left: 0;
+  top: 50%;
+}
+
+.slide-next-button {
+  position: absolute;
+  right: 0;
+  top: 50%;
+}
+
+.img-size{
   width: 100%;
+}
+
+.top-page-title{
+    position: absolute;
+    color: rgb(156, 162, 49);
+    font-size: 30px;
+    top: 30%;
 }
 </style>
