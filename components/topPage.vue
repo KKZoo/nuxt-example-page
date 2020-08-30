@@ -9,9 +9,14 @@
     <p class="top-page-title">
       KKZoo's SAMPLE PAGE
     </p>
-    <p class="top-page-text">
-      down scroll page
-    </p>
+    <span class="top-page-text">
+      <p>
+        scroll down page
+      </p>
+      <p>
+        ↓
+      </p>
+    </span>
 
     <button class="slide-before-button" @click="beforeSlide">
       前
@@ -75,6 +80,7 @@ export default {
     position: absolute;
     color: white;
     bottom: 0;
+    text-align: center;
 }
 
 .slide-before-button {
