@@ -14,10 +14,10 @@
             TOP
           </b-nav-item> 
           <b-nav-item v-scroll-to="'#myprof'">
-            MyProfile
+            My Profile
           </b-nav-item> 
           <b-nav-item v-scroll-to="'#skill'">
-            skill
+            Skills
           </b-nav-item>
         </b-navbar-nav> 
       </b-collapse> 
