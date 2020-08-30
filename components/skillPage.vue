@@ -1,10 +1,10 @@
 <template>
   <section id="skill">
     <span class="skill-desgin">
-    <img src="~/assets/skill-icon.png" class="skill-icon">
-    <h2 class="skill-page-title">
-      Skills
-    </h2>
+      <img src="~/assets/skill-icon.png" class="skill-icon">
+      <h2 class="skill-page-title">
+        Skills
+      </h2>
     </span>
     <div class="container">
       <div class="row">

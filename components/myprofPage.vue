@@ -1,10 +1,10 @@
 <template>
   <section id="myprof">
     <span class="prof-desgin">
-    <img src="~/assets/prof-icon.png" class="prof-icon">
-    <h2 class="myprof-page-title">
-      My Profile
-    </h2>
+      <img src="~/assets/prof-icon.png" class="prof-icon">
+      <h2 class="myprof-page-title">
+        My Profile
+      </h2>
     </span>
     <div class="row">
       <b-container class="col-12 d-flex justify-content-center">
