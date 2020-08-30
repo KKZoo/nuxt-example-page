@@ -16,10 +16,10 @@
             Author: KKZoo
           </li>
           <li>
-            birth day: 5 / 2
+            BirthDay: 5/2
           </li>
           <li>
-            country: Japan
+            Country: Japan
           </li>
         </ul>
       </b-container>
@@ -51,5 +51,13 @@
   height: 6em;
   border-radius: 50%;
   margin: 5px; 
+}
+
+ul{
+  list-style: none;
+}
+
+li{
+  margin: 5px;
 }
 </style>>
