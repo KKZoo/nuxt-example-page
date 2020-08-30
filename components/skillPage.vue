@@ -1,8 +1,11 @@
 <template>
   <section id="skill">
+    <span class="skill-desgin">
+    <img src="~/assets/skill-icon.png" class="skill-icon">
     <h2 class="skill-page-title">
       Skills
     </h2>
+    </span>
     <div class="container">
       <div class="row">
         <div class="col-sm-4">
@@ -45,9 +48,20 @@
 <style>
 .skill-page-title{
     left: 0%;
-    margin-top: 30px;
-    margin-bottom: 30px;
-    margin-left: 20px;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+.skill-desgin{
+  display: flex;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-left: 20px;
+}
+
+.skill-icon{
+  width: 3rem;
+  height: 3rem;
 }
 
 .underline{

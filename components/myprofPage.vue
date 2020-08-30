@@ -30,6 +30,8 @@
 <style>
 .myprof-page-title{
     left: 0%;
+    margin-top: 5px;
+    margin-left: 5px;
 }
 
 .prof-desgin{
