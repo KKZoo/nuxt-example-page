@@ -1,5 +1,5 @@
 <template>
-  <section id="myprof">
+  <section id="myprof" class="myprof-all">
     <span class="prof-desgin">
       <img src="~/assets/prof-icon.png" class="prof-icon">
       <h2 class="myprof-page-title">
@@ -28,6 +28,11 @@
 </template>
 
 <style>
+.myprof-all{
+  background: #6ff7ff;
+  border-radius: 10%;
+}
+
 .myprof-page-title{
     left: 0%;
     margin-top: 5px;
