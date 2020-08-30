@@ -82,13 +82,16 @@
 
 .vue-logo{
     width: 10rem;
+    margin-top: 5px; 
 }
 
 .css-logo{
     width: 10rem;
+    margin-top: 5px;
 }
 
 .bootstrap-logo{
     width: 10rem;
+    margin-top: 5px;
 }
 </style>>
