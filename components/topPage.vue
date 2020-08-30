@@ -13,17 +13,10 @@
       <p>
         scroll down page
       </p>
-      <p>
-        ↓
-      </p>
     </span>
 
-    <button class="slide-before-button" @click="beforeSlide">
-      前
-    </button>
-    <button class="slide-next-button" @click="nextSlide">
-      次
-    </button>
+    <img src="~/assets/left-icon.png" class="slide-before-button" @click="beforeSlide">
+    <img src="~/assets/right-icon.png" class="slide-next-button" @click="nextSlide">
   </section>
 </template>
 
@@ -87,12 +80,14 @@ export default {
   position: absolute;
   left: 0;
   top: 50%;
+  width: 2rem;
 }
 
 .slide-next-button {
   position: absolute;
   right: 0;
   top: 50%;
+  width: 2rem;
 }
 
 .slide-enter-active {
