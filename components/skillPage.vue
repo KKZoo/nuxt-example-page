@@ -6,42 +6,54 @@
         Skills
       </h2>
     </span>
-    <div class="container">
-      <div class="row">
-        <div class="col-sm-4">
-          <div class="row">
-            <div class="col-12 margin-logo">
-              <span class="underline">
-                Vue.js
-              </span>
-            </div>
-            <div class="col-12">
-              <img src="~/assets/vue_logo.png" class="vue-logo">
-            </div>
-          </div>
-        </div>
-        <div class="col-sm-4">
-          <div class="col-12 margin-logo">
-            <span class="underline">
-              CSS
-            </span>
-          </div>
-          <div class="col-12">
-            <img src="~/assets/css_logo.svg" class="css-logo">
-          </div>
-        </div>
-        <div class="col-sm-4">
-          <div class="col-12 margin-logo">
-            <span class="underline">
-              Bootstrap Vue
-            </span>
-          </div>
-          <div class="col-12">
-            <img src="~/assets/bootstrap_vue_logo.png" class="bootstrap-logo">
-          </div>
-        </div>
-      </div>
-    </div>
+    <b-row>
+    <b-container>
+      <b-row>
+        <b-col cols="6" sm="4">
+          <b-container class="d-flex justify-content-center">
+            <b-row>
+              <b-col cols="12">
+                <span class="underline">
+                  Vue.js
+                </span>
+              </b-col>
+              <b-col cols="12">
+                <img src="~/assets/vue_logo.png" class="vue-logo">
+              </b-col>
+            </b-row>
+          </b-container>
+        </b-col>
+        <b-col cols="6" sm="4">
+          <b-container class="d-flex justify-content-center">
+            <b-row>
+              <b-col cols="12">
+                <span class="underline">
+                  CSS
+                </span>
+              </b-col>
+              <b-col cols="12">
+                <img src="~/assets/css_logo.svg" class="css-logo">
+              </b-col>
+            </b-row>
+          </b-container>
+        </b-col>
+        <b-col cols="6" sm="4">
+          <b-container class="d-flex justify-content-center">
+            <b-row>
+              <b-col cols="12">
+                <span class="underline">
+                  Bootstrap Vue
+                </span>
+              </b-col>
+              <b-col cols="12">
+                <img src="~/assets/bootstrap_vue_logo.png" class="bootstrap-logo">
+              </b-col>
+            </b-row>
+          </b-container>
+        </b-col>
+      </b-row>
+    </b-container>
+      </b-row>
   </section>
 </template>
 
@@ -68,19 +80,15 @@
     border-bottom: 2px solid gray;
 }
 
-.margin-logo{
-    margin: 10px;
-}
-
 .vue-logo{
-    width: 100%;
+    width: 10rem;
 }
 
 .css-logo{
-    width: 100%;
+    width: 10rem;
 }
 
 .bootstrap-logo{
-    width: 100%;
+    width: 10rem;
 }
 </style>>
